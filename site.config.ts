@@ -2,21 +2,23 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '7875426197cf461698809def95960ebf',
+  // 站点的 Notion 根页面（必须填写）
+  // 点击页面的分享按钮，复制链接，删除链接的前半部分
+  rootNotionPageId: 'e347ab2362a945f8a4626a7a76ff4a48',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
-  // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  // 基础站点信息（必须填写）
+  name: '二十二世纪杀人网络宣传部', // 网页名
+  domain: 'https://www.notion.so/abdeeglr/Homepage-e347ab2362a945f8a4626a7a76ff4a48',
+  author: '法外狂徒章鱼博士三',
 
   // open graph metadata (optional)
   description: 'Example Next.js Notion Starter Kit Site',
 
-  // social usernames (optional)
+  // 社交用户信息（选填）
   twitter: 'transitive_bs',
   github: 'transitive-bullshit',
   linkedin: 'fisch2',
